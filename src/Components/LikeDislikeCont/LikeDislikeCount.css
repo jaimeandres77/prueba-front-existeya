@@ -1,0 +1,49 @@
+.votes-container{
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin-top: 1rem;
+}
+
+.likes{
+    width: 64%;
+    display: flex;
+    background-color: rgba(2, 185, 183, 0.9);
+    padding: 0.2rem;
+}
+
+.dislikes{
+    width: 36%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(215, 150, 26,0.9);
+    padding: 0.2rem;
+}
+
+.thumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+    font-size: 1.25rem;
+}
+
+.percent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2px;
+}
+
+.percent h3{
+    padding: 0;
+    margin: 0;
+    font-weight: 100;
+}
+
+.percent span{
+    padding: 0;
+    margin: 0;
+    font-size: 1rem;
+}

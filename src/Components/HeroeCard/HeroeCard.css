@@ -1,0 +1,92 @@
+.hero-card-container{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hc-bg{
+    width: 100%;
+    max-width: 380px;
+    background-image: url("../../assets/img/superman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    border-radius: 1px;
+}
+
+.name-container{
+    margin-top: 12rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.name-container h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.blueThumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(34, 130, 255);
+    font-size: 20px;
+}
+
+.yellowThumbs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(215, 150, 26);
+    font-size: 20px;
+}
+.p-container{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: 0.8rem;
+    font-weight: lighter;
+    width: 100%;
+}
+
+.p-container p{
+    margin: 0;
+}
+
+.middle-section{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    padding: 0 5% ;
+}
+
+.middle-section button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    width: 35%;
+    height: 2.2rem;
+    background:none;
+    border: 1px solid white;
+    color: white;
+}
+
+.middle-section p{
+    width: 25%;
+    font-size: 0.7rem;
+    text-align: right;
+    line-height: 0.8rem;
+}
+
+
+

@@ -1,0 +1,233 @@
+.Image-bg-container{
+    background-image: url("../../assets/img/Ironman.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 40vh;
+}
+
+.interactive-window{
+    position: absolute;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 15px;
+    padding: 0.5rem;
+}
+
+.info-container{
+    text-align: left;
+    width: 90%;
+}
+.info-container h5{
+    font-size: 0.825rem;
+    font-weight: 100;
+}
+
+.info-container p{
+    font-size: 0.825rem;
+    font-weight: 200;
+}
+
+
+.wiki-container{
+    display: flex;
+    justify-content: left;
+    font-size: 0.8rem;
+    gap: 0.1rem;
+}
+
+.wiki-container p{
+    text-decoration: underline;
+}
+
+.wiki-logo{
+    font-size: 1rem;
+}
+
+.voting-section{
+    margin:auto;
+    width: 50%;
+}
+
+.voting-section h3{
+    font-size: 1rem;
+}
+
+.button-container{
+    display: flex;
+    width: 80%;
+    height: 30px;
+    justify-content: space-evenly;
+    margin-left: 0.5rem;
+    gap: 10px;
+}
+
+.like-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;    
+    width: 50%;
+    border: none;
+    background-color: rgba(2, 185, 183, 0.9);
+}
+
+.dislike-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 50%;
+    border: none;
+    background-color: rgba(215, 150, 26,0.9);
+}
+
+.votes-container-mc{
+    width: 100%;
+    display: flex;
+    position: relative;
+    bottom: 0;
+    margin-top: 1rem;
+    position: absolute;
+}
+
+.likes-mc{
+    width: 58.02%;
+    display: flex;
+    justify-content: end;
+    background-color: rgba(2, 185, 183, 0.9);
+    padding: 0.5rem 0.2rem;
+}
+
+.dislikes-mc{
+    width: 41.98%;
+    display: flex;
+    justify-content: start;
+    background-color: rgba(215, 150, 26,0.9);
+    padding: 0.5rem 0.2rem;
+}
+
+@media screen and (min-width:768px){
+    .Image-bg-container{
+        width: 100%;
+        height: 60vh;
+    }
+
+    .interactive-window{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 15px;
+        padding: 0rem;
+    }
+
+    .info-container{
+        text-align: left;
+        width: 90%;
+        padding: 1rem;
+    }
+
+    .voting-section{
+        margin:auto;
+        width: 100%;
+    }
+    
+    .voting-section h3{
+        font-size: 1rem;
+        text-align: left;
+        padding: 0 1rem 1rem 1rem;
+    }
+    
+    .button-container{
+        display: flex;
+        width: 100%;
+        height: 45px;
+        justify-content: space-evenly;
+        margin-left: 0;
+        gap: 0px;
+    }
+    
+    .like-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;    
+        width: 50%;
+        border: none;
+        background-color: rgba(2, 185, 183, 0.9);
+    }
+    
+    .dislike-button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        width: 50%;
+        border: none;
+        background-color: rgba(215, 150, 26,0.9);
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .Image-bg-container{
+        width: 100%;
+        height: 90vh;
+    }
+
+    .interactive-window{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        margin: 4.8rem;
+        padding: 0rem;
+    }
+
+    .info-container{
+        text-align: left;
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .info-container h2{
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+    }
+
+    .info-container h5{
+        font-size: 1rem;
+    }
+
+    .info-container p{
+        font-size: 1.25rem;
+        line-height: 1.26rem;
+    }
+
+    .voting-section h3{
+        font-size: 1.5rem;
+        text-align: left;
+        padding: 0 1rem 1rem 1rem;
+    }
+    .button-container{
+        display: flex;
+        width: 100%;
+        height: 4.5rem;
+        justify-content: space-evenly;
+        margin-left: 0;
+        gap: 0px;
+    }
+
+    .like-button{
+        font-size: 2rem;
+    }
+    
+    .dislike-button{
+        font-size: 2rem;
+    }
+}

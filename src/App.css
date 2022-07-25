@@ -28,11 +28,47 @@
   color: #61dafb;
 }
 
+.main-subtitle{
+  font-size: 2rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.footer-style{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-links{
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  gap: 10px;
+}
+
+@media screen and (min-width:768px){
+  .footer-style{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .footer-links{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    gap: 10px;
   }
 }

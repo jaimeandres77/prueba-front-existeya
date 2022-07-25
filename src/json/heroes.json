@@ -1,0 +1,42 @@
+[
+    {
+        "id":"0",
+        "name":"Iron Man",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic et accusantium minima ab tempora doloribus quibusdam quas.",
+        "img":"",
+        "likes":"30",
+        "dislikes":"10"
+    },
+    {
+        "id":"1",
+        "name":"Super Man",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic et accusantium minima ab tempora doloribus quibusdam quas.",
+        "img":"superman.jpg",
+        "likes":"20",
+        "dislikes":"5"
+    },
+    {
+        "id":"2",
+        "name":"Thor",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic et accusantium minima ab tempora doloribus quibusdam quas.",
+        "img":"",
+        "likes":"35",
+        "dislikes":"15"
+    },
+    {
+        "id":"3",
+        "name":"Batman",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic et accusantium minima ab tempora doloribus quibusdam quas.",
+        "img":"",
+        "likes":"25",
+        "dislikes":"10" 
+    },
+    {
+        "id":"4",
+        "name":"Spiderman",
+        "description":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi hic et accusantium minima ab tempora doloribus quibusdam quas.",
+        "img":"",
+        "likes":"35",
+        "dislikes":"15"
+    }
+]
